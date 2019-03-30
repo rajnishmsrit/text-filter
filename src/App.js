@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import NavBar from './Components/NavBar'
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
-      <h1>Text Filter</h1>
-    );
+      <div>
+        <NavBar />
+      </div>
+    )
   }
 }
+export default App
